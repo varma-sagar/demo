@@ -18,9 +18,14 @@ public class DemoApplication {
 		return "Hello Spring Boot";
 	}
 
-	@GetMapping("/hello/{id}")
+	@GetMapping("/Error/{id}")
 	public String Error(@PathVariable String id){
 		return "Error Page"+id;
+	}
+
+	@GetMapping("/hello/{id}")
+	public String Hello(@PathVariable String id){
+		return "Hello Page"+id;
 	}
 
 }
