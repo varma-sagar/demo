@@ -25,7 +25,7 @@ public class DemoApplication {
 
 	@GetMapping("/hello/{id}")
 	public String Hello(@PathVariable String id){
-		return "Hello Page master branch"+id;
+		return "Hello Page second test branch"+id;
 	}
 
 }
