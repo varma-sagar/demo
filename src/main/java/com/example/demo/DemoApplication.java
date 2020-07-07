@@ -25,7 +25,7 @@ public class DemoApplication {
 
 	@GetMapping("/hello/{id}")
 	public String Hello(@PathVariable String id){
-		return "Hell"+id;
+		return "Hll"+id;
 	}
 
 }
