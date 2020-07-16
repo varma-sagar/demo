@@ -28,4 +28,9 @@ public class DemoApplication {
 		return "Hello Page second test branch"+id;
 	}
 
+	@GetMapping("/helloWorld/{id}")
+	public String HelloWorld(@PathVariable String id){
+		return "Hello World Page second test branch"+id;
+	}
+
 }
